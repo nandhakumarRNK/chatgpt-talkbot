@@ -5,6 +5,7 @@ const app = express();
 const port = 4000;
 
 const { Configuration, OpenAIApi } = require("openai");
+//open api key
 const configuration = new Configuration({
   apiKey: process.env.REACT_APP_OPENAI_API_KEY,
 });
